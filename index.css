@@ -1,0 +1,134 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+font-family:  Helvetica;
+background-image: url(fundo.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+header{
+    height: 130px;
+    padding-top: 30px;
+    background-color: #00000099;
+   
+}
+
+header figure{
+    width: 30px;
+    height: 52px;
+    margin-left: 30px;
+}
+
+header figure img{
+    height: 100%;
+}
+
+main{
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: #00000099;
+}
+
+main section{
+    width: 30%;
+    height: 800px;
+    background-color: #000000bf;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+main section form {
+    width: 300px;
+    margin: 75px auto;
+}
+
+main section form input{
+    height: 80px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 0 15px 0;
+    background-color: #3d3d3d;
+    color: #ddd;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+main section form h1{
+    color: #fff;
+    font-size: 40px;
+}
+ main section form p {
+    color:#ddd;
+    font-size: 12px
+ }
+
+main section form input::placeholder{
+    color: #a4a4a4;
+    font-weight: 400;
+}
+
+main section form input[type=submit]{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin:20px 0 10px 0 ;
+    cursor: pointer;
+}
+
+main section form input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    accent-color: #e50914;
+}
+ 
+.lembrar{
+    color:#b3b3b3;
+    font-size: 14px;
+    
+}
+
+.ajuda{
+    text-decoration:  none;
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+div{
+    width: 300px;
+    margin: 75px auto;
+    text-align: left;
+    color: #b3b3b3;
+}
+
+div p{
+    margin: 0;
+    padding: 0;
+}
+
+.texto2{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+div a{
+    text-decoration: none;
+    color: #fff;
+}
